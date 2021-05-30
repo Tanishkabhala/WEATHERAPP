@@ -1,0 +1,15 @@
+.main {
+  margin: 20% auto;
+  text-align: center;
+  font-style: unset;
+  color: rgb(211, 198, 228);
+  font-size: 33px;
+  font-weight: bold;
+  
+}
+body {
+  background-color: rgb(49, 40, 83);
+  border: thick double #0af545;
+  box-shadow: 5px 10px #ce29c0;
+  background-size: 45;   
+}
