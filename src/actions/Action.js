@@ -10,7 +10,7 @@ export const weatherAPI = () => async (dispatch) => {
             }
         }
 
-        const { data } = await axios.get('http://api.openweathermap.org/data/2.5/weather?q=Jaipur&appid=5aaafe3bcfc504f92b554a4ef54b15af', {}, config)
+        const { data } = await axios.get('http://api.openweathermap.org/data/2.5/weather?q=Jaipur&appid=5aaafe3bcfc504f92b554a4ef54b15af&units=metric', {}, config)
         dispatch({ type: WEATHER_DATA_REQUEST, payload: data })
     }
     catch (error) {
